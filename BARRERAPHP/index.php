@@ -1,24 +1,25 @@
 <?php require_once "includes/header.php" ?>
 <h1 class="text-center"> Registration of IT Conference </h1>
+<form action="success.php" method="Get">
 <body>
  
-
     <form>
+    <div class="container">
     <div class="form-group">
-    <label for="exampleInputFirstname">First Name</label>
-    <input type="first name" class="form-control" id="exampleInputFirstName" aria-describedby="FnameHelp">
+    <label for="firstname">First Name</label>
+    <input type="first name" class="form-control" id="firstName" name = "firstname">
 </div>
 <div class="form-group">
-    <label for="exampleInputLastname">Last Name</label>
-    <input type="last name" class="form-control" id="exampleInputLastName" aria-describedby="LnameHelp">
+    <label for="lastname">Last Name</label>
+    <input type="last name" class="form-control" id="lastName" name ="lastname">
     </div>
 
-    <form action="/action_page.php">
+   
   <label for="birthday">Date of Birth:</label>
-  <p>Date: <input type="text" id="datepicker"></p>  
+ <input type="text" id="datepicker" name ="date">
 
-</form>
-<form action="/action_page.php">
+
+
   <label for="Specialty">Specialty:</label>
   <div class="form-group form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
